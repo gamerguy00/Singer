@@ -75,11 +75,11 @@ fs.readdir(config.commandsDir, (err, files) => {
 
 if (config.TOKEN || process.env.TOKEN) {
   client.login(config.TOKEN || process.env.TOKEN).catch((e) => {
-    console.log('MTIwNTIwMDQ5Mjc2Mjg5ODQ3Mg.GOol_S.hz2wtXkrswGr7K0GFbpApT2mJ92j9QXiMn6AWA');
+    console.log(TOKEN ERROR);
   });
 } else {
   setTimeout(() => {
-    console.log('MTIwNTIwMDQ5Mjc2Mjg5ODQ3Mg.GOol_S.hz2wtXkrswGr7K0GFbpApT2mJ92j9QXiMn6AWA');
+    console.log(TOKEN ERROR);
   }, 2000);
 }
 
